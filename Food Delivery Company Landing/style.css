@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8f0;
+}
+
+.banner {
+    background: orange;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background: white;
+    color: orange;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px gray;
+}
+
+.reviews {
+    background: #ffe4b5;
+}
+
+.contact {
+    background: #333;
+    color: white;
+}
