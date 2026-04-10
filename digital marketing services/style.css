@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.hero {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background: white;
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px gray;
+}
+
+.testimonials {
+    background: #ddd;
+}
+
+.contact {
+    background: #333;
+    color: white;
+}
