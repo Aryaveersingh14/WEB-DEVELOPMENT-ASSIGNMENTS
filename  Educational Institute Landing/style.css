@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HERO SECTION WITH BACKGROUND IMAGE */
+.hero {
+    background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+/* DARK OVERLAY */
+.overlay {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    height: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.overlay h1 {
+    font-size: 50px;
+}
+
+.overlay p {
+    font-size: 20px;
+}
+
+/* BUTTON */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: darkorange;
+    transform: scale(1.05);
+}
+
+/* GENERAL SECTION */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+/* COURSE CARDS */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 30px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px gray;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #4b6cb7;
+    color: white;
+}
+
+/* TESTIMONIAL SECTION */
+.testimonials {
+    background: #eef4ff;
+}
+
+/* CONTACT */
+.contact {
+    background: #222;
+    color: white;
+}
